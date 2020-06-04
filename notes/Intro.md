@@ -16,5 +16,18 @@ Rather, we realized that these multi-step build pipelines involving multiple
 files can quickly get out of hand. As illustrated in this example shell script.
 
 ```bash
-<>
+#!/bin/sh
+
+# USAGE: bash run_pipeline.sh
+# to produce plots for isles and abyss
+# and the summary table for the Zipf's law tests
+
+python countwords.py books/isles.txt isles.dat
+python countwords.py books/abyss.txt abyss.dat
+
+python plotcounts.py isles.dat isles.png
+python plotcounts.py abyss.dat abyss.png
+
+# Generate summary table
+python testzipf.py abyss.dat isles.dat > results.txt
 ```

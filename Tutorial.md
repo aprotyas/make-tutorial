@@ -12,6 +12,7 @@ For example: `python countwords.py books/isles.txt isles.dat` is an action.
 + A *tab* (NOT a space) needs to begin the line succeeding the targets and
 dependencies. The action goes in this line.
 ### Lesson 2 - Makefiles  
++ Write rules as `target: dependencies`.  
 + Makefiles do not have to be called `Makefile`. To make using a Makefile with
 a different name, simply use: `make -f <file_name>`.
 + `up to date`: Makefile has a rule whose target is up to date.
@@ -32,3 +33,4 @@ clean:
 necessarily built in the order listed. Furthermore, since dependencies must form
 directed acyclic graphs, a target cannot depend on a dependency which itself
 depends on the target. (phew, long one)  
+### Lesson 3: Automatic Variables

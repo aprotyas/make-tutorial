@@ -1,6 +1,6 @@
 ## Make tutorial  
 GNU Make tutorial for my personal use. All examples and notes based off of
-[swcarpentry's tutorial](swcarpentry.github.io/make-novice). Notes have been
+[swcarpentry's tutorial](https://swcarpentry.github.io/make-novice). Notes have been
 taken in passing and for the most part, have been lifted verbatim from the
 source. Not claiming IP!  
 ### Make  

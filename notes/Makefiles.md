@@ -21,6 +21,8 @@ necessarily built in the order listed. Furthermore, since dependencies must form
 directed acyclic graphs, a target cannot depend on a dependency which itself
 depends on the target. (phew, long one)  
 
+____
+
 The makefile at the end of this section:
 ```make
 # Generate summary table.

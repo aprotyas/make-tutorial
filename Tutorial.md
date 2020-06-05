@@ -9,3 +9,4 @@ can be found in the linked files.
 + [Lesson 5 - Pattern Rules](notes/Pattern_Rules.md)
 + [Lesson 6 - Variables](notes/Variables.md)
 + [Lesson 7 - Functions](notes/Functions.md)
++ [Lesson 8 - Self Documentation](notes/Self_Documentation.md)

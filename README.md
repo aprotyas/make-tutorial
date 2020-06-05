@@ -3,6 +3,8 @@ GNU Make tutorial for my personal use. All examples and notes based off of
 [swcarpentry's tutorial](https://swcarpentry.github.io/make-novice). Notes have been
 taken in passing and for the most part, have been lifted verbatim from the
 source. Not claiming IP!  
+**NOTE**: This repo is not suitable to actually learn Make from. I'm keeping my
+notes and sample makefiles as personal examples for future reference.  
 ### Make  
 #### What is Make?  
 GNU Make is a tool which can run commands to read files, process these files in

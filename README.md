@@ -22,4 +22,4 @@ Furthermore, the fundamental concepts of Make are common across many contemporar
 build tools.
 ### Tutorial  
 To not risk running this README too long, my main notes can be found in this
-[Tutorial](Tutorial.md) file.
+[Tutorial](notes/README.md) file.

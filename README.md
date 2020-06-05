@@ -20,6 +20,6 @@ Make can be used in implementing reproducible research workflows, automating
 data analysis, and combining text with figures to produce reports.
 Furthermore, the fundamental concepts of Make are common across many contemporary
 build tools.
-### Tutorial  
+### Notes  
 To not risk running this README too long, my main notes can be found in this
 [Tutorial](notes/README.md) file.

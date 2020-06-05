@@ -1,4 +1,6 @@
 ### Lesson 7 - Functions  
+**Future note**: Refer to [this list](https://www.gnu.org/software/make/manual/html_node/Functions.html)
+for a full list of available GNU Make functions.
 + *Functions* can be used to write more complex rules. Two examples:
     + `wildcard` - gets a list of files matching some pattern, which can then
     be saved in a variable. For example - `TXT_FILES=$(wildcard books/*.txt)`

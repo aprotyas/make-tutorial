@@ -5,7 +5,7 @@ limit repetition in the code. To avoid repeating code, we can make use of
 
 + `$@` is a Make automatic variable which means 'the target of the current rule'.
 + `$^` is a Make automatic variable which means 'all the dependencies of the
-current rule'.
+current rule'.  
 Hence, the rule that used to be:
 ```make
 results.txt : isles.dat abyss.dat last.dat
@@ -17,7 +17,7 @@ results.txt : isles.dat abyss.dat last.dat
 	python testzipf.py $^ > $@
 ```
 + `$<` is a Make automatic variable which means 'the first dependency of the
-current rule'.
+current rule'.  
 Hence, the rule that used to be:
 ```make
 isles.dat : books/isles.txt

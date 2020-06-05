@@ -1,4 +1,4 @@
-## Tutorial  
+## Notes  
 Disclaimer to future me: these points were compiled as encountered. Please
 disregard the particular order in which they appear. Specific chapter notes
 can be found in the linked files.  

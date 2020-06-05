@@ -8,3 +8,4 @@ can be found in the linked files.
 + [Lesson 4 - Code Dependencies](notes/Code_Dependencies.md)
 + [Lesson 5 - Pattern Rules](notes/Pattern_Rules.md)
 + [Lesson 6 - Variables](notes/Variables.md)
++ [Lesson 7 - Functions](notes/Functions.md)

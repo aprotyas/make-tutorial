@@ -6,3 +6,4 @@ can be found in the linked files.
 + [Lesson 2 - Makefiles](notes/Makefiles.md)
 + [Lesson 3 - Automatic Variables](notes/Automatic_Variables.md)
 + [Lesson 4 - Code Dependencies](notes/Code_Dependencies.md)
++ [Lesson 5 - Pattern Rules](notes/Pattern_Rules.md)

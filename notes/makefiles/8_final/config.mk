@@ -1,0 +1,16 @@
+LANGUAGE=python
+SRC_DIR=src
+COUNT_SRC=$(SRC_DIR)/countwords.py
+COUNT_EXE=$(LANGUAGE) $(COUNT_SRC)
+PLOT_SRC=$(SRC_DIR)/plotcounts.py
+PLOT_EXE=$(LANGUAGE) $(PLOT_SRC)
+ZIPF_SRC=$(SRC_DIR)/testzipf.py
+ZIPF_EXE=$(LANGUAGE) $(ZIPF_SRC)
+TXT_DIR=books
+TXT_FILES=$(wildcard $(TXT_DIR)/*.txt)
+DAT_FILES=$(patsubst $(TXT_DIR)/%.txt, %.dat, $(TXT_FILES))
+PNG_FILES=$(patsubst $(TXT_DIR)/%.txt, %.png, $(TXT_FILES))
+ZIPF_DIR=zipf_analysis
+ZIPF_ARCHIVE=$(ZIPF_DIR).tar.gz
+SRC_FILES=$(wildcard $(SRC_DIR)/*.py)
+RESULTS_FILE=results.txt

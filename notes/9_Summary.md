@@ -28,7 +28,6 @@ documenting how to reproduce results.
 + Reference variables using `$(...)`.  
 
 #### Functions  
-+ Make is actually a small programming language with many [in-built functions]
-(https://www.gnu.org/software/make/manual/html_node/Functions.html).  
++ Make is actually a small programming language with many [in-built functions](https://www.gnu.org/software/make/manual/html_node/Functions.html).  
 + Use `wildcard` function to get lists of files matching a pattern.  
 + Use `patsubst` function to rewrite file names.  

@@ -10,3 +10,4 @@ can be found in the linked files.
 + [Lesson 6 - Variables](6_Variables.md)
 + [Lesson 7 - Functions](7_Functions.md)
 + [Lesson 8 - Self Documentation](8_Self_Documentation.md)
++ [Lesson 9 - Summary](9_Summary.md)
